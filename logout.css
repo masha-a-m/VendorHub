@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Main Page */
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding:20px 10px;
+    background-color: rgb(250, 246, 250);
+    
+} 
+
+.logout h5 {
+    font-size: 30px;
+    color: rgb(88, 89, 90);
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.logout .btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.logout button {
+    padding: 18px 40px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    appearance: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    margin-right: 50px;
+}
+
+.logout .btn-2 {
+    background-color: rgb(196, 193, 193);
+}

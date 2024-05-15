@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Hub</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+        <div class="container">
+            <nav class="topnav">
+                <h3>Vendor<span>Hub</span></h3>
+                <ul class="nav-li" id="dropdownClick">
+                    <li class="nav-right login"><a href="login.html">Log In</a></li>
+                    <li class="nav-right signup"><a href="sign-up.html">Get Started</a></li>
+                    <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+                </ul>
+            </nav>
+
+            <section class="hero-section">
+                <h3>Get Access To Vendors Easily</h3>
+
+                <p>Reliable and Trusted <br> Discover Exclusive Deals and Services Designed for Students</p>
+                
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Find Vendors With Ease</h3>
+                        <p>Discover vendors that fit your budget, style<br>
+                            all at your own convenience</p>
+                            <img src="img/Create-Website-with-Login-Registration-Form-in-HTML-CSS-and-JavaScript.jpg" alt="happy students" />
+                        </div>
+                        
+                        <div class="card">
+                            <h3>Real-time availability/booking</h3>
+                            <p>Check real-time availability for vendors<br>
+                                and make bookings directly through the website</p>
+                                <img src="img/image 2.png" alt="happy students" />
+                            </div>
+                        </div>
+                        
+            </section>
+                    
+            <section class="third-section">
+
+                <h3 class="about-us">About Us
+                </h3>
+
+                <div class="about-us-section">
+
+                <p>Welcome to VendorHub – your ultimate<br>
+                destination for connecting with vendors<br>
+                tailored to the unique needs of college<br>
+                students.<br>
+                At VendorHub, we understand the<br>
+                challenges and demands that college<br>
+                life brings. Whether you're planning an<br>
+                event, searching for essential services,<br>
+                or simply looking to enhance your student<br>
+                experience, we're here to simplify the process<br>
+                for you.</p>
+
+                <img src="img/image 4.png" alt="about-us" />
+
+                </div>
+
+                <h3 class="our-services">Our Services</h3>
+            
+
+                <div class="our-services-section">
+            
+                <p><span>Customized Vendor Recommendations <br></span>Implement a recommendation system<br> that suggests vendors based on the<br> student's preferences, past interactions,<br> and
+                feedback from other users.</p>
+
+                <img src="img/image 5.png" alt="about-us" />
+
+                </div>
+            
+                <div class="our-services-section-2">
+            
+                <p><span>Real-time Availability and Booking <br></span>Enables students to check real-time<br> availability for vendors and make bookings<br> directly through the website. Integration<br>
+                with calendars can help manage appointments<br> efficiently.</p>
+
+                <img src="img/image 5.png" alt="about-us" />
+
+                </div>
+
+                <div class="our-services-section-3">
+            
+                <p><span>Student Budgeting Tools <br></span>Budgeting tools or calculators to<br> help students plan and manage<br> their expenses when hiring vendors<br> for events or
+                services.</p>
+
+                <img src="img/image 5.png" alt="about-us" />
+
+                </div>
+
+            </section>
+
+
+            <footer class="footer-section">
+                <ul>
+                    <li>Quick Links</li>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+                <ul>
+
+                    <li>Follow Us</li>
+                    <li>Facebook</li>
+                    <li>LinkedIn</li>
+                    <li>Instagram</li>
+                    <li>Tiktok</li>
+                </ul>
+                <ul>
+                    <li>Contact Info</li>
+                    <li class="contact">contact@vendorhub.ng</li>
+                    <li class="contact">ABC Street, Nigeria</li>
+                </ul>
+            </footer>
+        </div>
+    
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "nav-li") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "nav-li";
+                }
+            }
+        </script>
+</body>    
+</html>
